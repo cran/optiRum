@@ -1,0 +1,35 @@
+\name{scaledScore}
+\alias{scaledScore}
+\title{Produce a scaled score based on a logit}
+\usage{
+scaledScore(logit, offset = 300, scale = 50)
+}
+\arguments{
+  \item{logit}{Logit to be scaled}
+
+  \item{offset}{Midrange, default is 300}
+
+  \item{scale}{Value in which odds are double, default is
+  50}
+}
+\description{
+This function takes a logit and scales based on an
+intercept and doubling of odds ratio
+}
+\examples{
+scaledScore(0) # 300
+scaledScore(0,offset=600) # 600
+}
+\seealso{
+\code{\link{glm}}
+
+Other creditrisk: \code{\link{giniChart}};
+\code{\link{giniCoef}}; \code{\link{logit.odd}};
+\code{\link{logit.prob}}; \code{\link{odd.logit}};
+\code{\link{odd.prob}}; \code{\link{prob.logit}};
+\code{\link{prob.odd}}
+}
+\keyword{glm}
+\keyword{logit}
+\keyword{score}
+

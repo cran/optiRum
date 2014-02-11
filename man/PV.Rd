@@ -1,0 +1,42 @@
+\name{PV}
+\alias{PV}
+\title{Calculates the present value}
+\usage{
+PV(rate, nper, pmt)
+}
+\arguments{
+  \item{rate}{The nominal interest rate per period (should
+  be positive)}
+
+  \item{nper}{Number of periods}
+
+  \item{pmt}{Instalment per period (should be negative)}
+}
+\value{
+pv Present value i.e. loan advance (should be positive)
+}
+\description{
+Based on period interest rate, number of periods, and
+instalment, this function calculates the present value of
+the loan such that it would be paid off fully at the end of
+the loan. This function is designed to be equivalent to the
+Excel function PV. It calculates based on a fixed interest
+rate, FV=0 and charging is at the end of the period.
+Response is rounded to 2dp
+}
+\examples{
+PV(0.1,12,-10) # 68.14 Taken from excel
+
+df<-data.frame(rate=c(.1,.1),nper=c(12,24),pmt=c(-10,-15))
+PV(df$rate,df$nper,df$pmt)  # c(68.14,134.77) Taken from excel
+}
+\seealso{
+\code{\link{PMT}} \code{\link{RATE}}
+
+Other finance: \code{\link{APR}}; \code{\link{PMT}};
+\code{\link{RATE}}
+}
+\keyword{financial}
+\keyword{pmt}
+\keyword{pv}
+

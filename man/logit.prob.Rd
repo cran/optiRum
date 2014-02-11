@@ -1,0 +1,32 @@
+\name{logit.prob}
+\alias{logit.prob}
+\title{Convert a logit to probability}
+\usage{
+logit.prob(logit)
+}
+\arguments{
+  \item{logit}{The log(odds)}
+}
+\value{
+prob Probability
+}
+\description{
+Transform a logit response from a glm into probability
+}
+\examples{
+logit.prob(0) # equals 0.5
+}
+\seealso{
+\code{\link{logit.odd}} \code{\link{odd.prob}}
+
+Other creditrisk: \code{\link{giniChart}};
+\code{\link{giniCoef}}; \code{\link{logit.odd}};
+\code{\link{odd.logit}}; \code{\link{odd.prob}};
+\code{\link{prob.logit}}; \code{\link{prob.odd}};
+\code{\link{scaledScore}}
+}
+\keyword{glm}
+\keyword{logit}
+\keyword{odds}
+\keyword{probability}
+
