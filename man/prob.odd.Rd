@@ -1,0 +1,32 @@
+\name{prob.odd}
+\alias{prob.odd}
+\title{Convert a probability into odds probability}
+\usage{
+prob.odd(prob)
+}
+\arguments{
+  \item{prob}{Probability}
+}
+\value{
+odds Odds
+}
+\description{
+Transform probabilities into odds
+}
+\examples{
+prob.odd(0.5) # equals 1
+}
+\seealso{
+\code{\link{prob.logit}} \code{\link{odd.logit}}
+
+Other creditrisk: \code{\link{giniChart}};
+\code{\link{giniCoef}}; \code{\link{logit.odd}};
+\code{\link{logit.prob}}; \code{\link{odd.logit}};
+\code{\link{odd.prob}}; \code{\link{prob.logit}};
+\code{\link{scaledScore}}
+}
+\keyword{glm}
+\keyword{logit}
+\keyword{odds}
+\keyword{probability}
+

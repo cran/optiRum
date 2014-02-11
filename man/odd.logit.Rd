@@ -1,0 +1,33 @@
+\name{odd.logit}
+\alias{odd.logit}
+\title{Convert an odd into a logit}
+\usage{
+odd.logit(odds)
+}
+\arguments{
+  \item{odds}{Odds}
+}
+\value{
+logit Log(odds)
+}
+\description{
+Transforming odds into logits (the response from binomial
+glms)
+}
+\examples{
+odd.logit(1) # equals 0
+}
+\seealso{
+\code{\link{logit.odd}} \code{\link{logit.prob}}
+
+Other creditrisk: \code{\link{giniChart}};
+\code{\link{giniCoef}}; \code{\link{logit.odd}};
+\code{\link{logit.prob}}; \code{\link{odd.prob}};
+\code{\link{prob.logit}}; \code{\link{prob.odd}};
+\code{\link{scaledScore}}
+}
+\keyword{glm}
+\keyword{logit}
+\keyword{odds}
+\keyword{probability}
+
