@@ -1,5 +1,5 @@
-119f18f753e0a3ea30bdac1cb3bff655 *DESCRIPTION
-fcfc505a61f8d9a491f3317f149579e1 *NAMESPACE
+8653d8f7bbf9982e21d523a441d6fec4 *DESCRIPTION
+654bda23cd12fb08b0e4be35abd19c77 *NAMESPACE
 ad56930d6b150715fc634ff380060fc8 *R/APR.R
 d03cbbb4eb56775ce870717a6eba6e20 *R/PMT.R
 0f71882c51fb7096a1c4712a338cf3cd *R/PV.R
@@ -9,6 +9,7 @@ ac106000992d06b3cba072f1fa939009 *R/RATE.R
 6685735923206af9f727f5f7b866b698 *R/giniCoef.R
 023e03c1b49a1ada08fdfbda9fcf9853 *R/logit.odd.R
 020385727d3108ce35b328da22b8c5a4 *R/logit.prob.R
+ad15b6e90c0f0ef3908448cd3343fd54 *R/multiplot.R
 5c01124c8a3823cca1fdcfa9c11dbbeb *R/odd.logit.R
 43ba19169eca89de5797a86b5abc58ae *R/odd.prob.R
 5d5c60270221c68aad6c747b25eb7f9a *R/optiRum-package.r
@@ -26,6 +27,7 @@ f7b51211afddedca25943eb9e3971a46 *man/giniChart.Rd
 dcfee4066f176e9bd6b68e256c3b6a17 *man/giniCoef.Rd
 3511649c771f8d362609fe1c4690f051 *man/logit.odd.Rd
 49f78255dd771fc2bbcda4a874084a97 *man/logit.prob.Rd
+d843c1c3cc7baac38cfab4fda5f5db73 *man/multiplot.Rd
 fe4d4153cf873de08c1ddcb6f937b969 *man/odd.logit.Rd
 5f043b94b17d9c3a47b03257b6bc7b0f *man/odd.prob.Rd
 f1ddb242c0d315432882aafce39cf0e2 *man/optiRum.Rd
@@ -34,13 +36,13 @@ d85341db28dbdab5f7868eee52b31832 *man/prob.odd.Rd
 5495bfcce674c7162335a32e744f3343 *man/sanitise.Rd
 b97d652eb1f446476d4031b33d9cd87f *man/scaledScore.Rd
 d0ec0491498d781d98f2dee7029a53d5 *man/theme_optimum.Rd
-a385b85fc6938390aa83fed934f83671 *tests/basic.Rnw
-5c1b3d6935cc3c9d8658cc6360a7d03f *tests/test-all.R
+b67fdf4865d0386b3d808e7b90b8222c *tests/test-all.R
+a385b85fc6938390aa83fed934f83671 *tests/testthat/basic.Rnw
 ae579dcb59d438ebf7df27606992d8a5 *tests/testthat/test-APR.R
 0eeeccc6aa9eb5bfd3faa8d61157e013 *tests/testthat/test-PMT.R
 f0ad5a96e0d5af2e798c2de27645f0bd *tests/testthat/test-PV.R
 9e5ac7a2d0a3787ae8015a0d3555d8d2 *tests/testthat/test-RATE.R
-2fc8c07eadb9d42449577e7f1c5dd8d8 *tests/testthat/test-generatePDF.R
+854f75233740f4069aa22ff2cc43bfe2 *tests/testthat/test-generatePDF.R
 eea36ed04709877dc484e8df1667f149 *tests/testthat/test-giniChart.R
 36147a04ff5b3e648d4af6844ca1f495 *tests/testthat/test-giniCoef.R
 d9e44e1d641ced60800aac5893463616 *tests/testthat/test-logit.odd.R
