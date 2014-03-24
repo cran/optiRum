@@ -1,5 +1,12 @@
-optiRum - 21/03/2014
----------------------------
+optiRum 0.31
+----------------------------------------------------------------
+
+Bug fixes:
+
+- Removed use of tempdir() in generatePDF tests that was causing CRAN Windows compilation issues
+
+optiRum 0.30
+----------------------------------------------------------------
 
 Bug fixes:
 

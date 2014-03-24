@@ -1,6 +1,6 @@
-ec8f627c43325a98426500642b94c04b *DESCRIPTION
+fd5f83a7095b64617dd58e720cb8964d *DESCRIPTION
 c8961435ec3f65c5c6ddfaf655ad837c *NAMESPACE
-f65835b6a9451ee837af23d2eab7a22e *NEWS
+eb32b08b25343fd9e2a01990ab88b04b *NEWS
 ad56930d6b150715fc634ff380060fc8 *R/APR.R
 d03cbbb4eb56775ce870717a6eba6e20 *R/PMT.R
 0f71882c51fb7096a1c4712a338cf3cd *R/PV.R
@@ -44,13 +44,13 @@ dc02ed3ee428e9066c839766709e4463 *man/thousands_format.Rd
 b67fdf4865d0386b3d808e7b90b8222c *tests/test-all.R
 a385b85fc6938390aa83fed934f83671 *tests/testthat/basic.Rnw
 70de7b122340d4e3ded120b2df13e6db *tests/testthat/datatabletest.Rnw
-04bcda40cab0da5e1bf4b38bf2e95426 *tests/testthat/datatabletest.pdf
+4e658db44fbee404bbd3a8c5ff3ef974 *tests/testthat/datatabletest.pdf
 ae579dcb59d438ebf7df27606992d8a5 *tests/testthat/test-APR.R
 0eeeccc6aa9eb5bfd3faa8d61157e013 *tests/testthat/test-PMT.R
 f0ad5a96e0d5af2e798c2de27645f0bd *tests/testthat/test-PV.R
 9e5ac7a2d0a3787ae8015a0d3555d8d2 *tests/testthat/test-RATE.R
-0d7264acd4b3d0a391b55e9a76ffdcac *tests/testthat/test-formatters.R
-9584324d3081fd3c36e2408f0d171729 *tests/testthat/test-generatePDF.R
+d705e993a4c963804d862f85fe242eb3 *tests/testthat/test-formatters.R
+aa1d8719cf9f90083401833b3e0ac680 *tests/testthat/test-generatePDF.R
 eea36ed04709877dc484e8df1667f149 *tests/testthat/test-giniChart.R
 36147a04ff5b3e648d4af6844ca1f495 *tests/testthat/test-giniCoef.R
 d9e44e1d641ced60800aac5893463616 *tests/testthat/test-logit.odd.R
