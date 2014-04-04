@@ -1,6 +1,6 @@
-fd5f83a7095b64617dd58e720cb8964d *DESCRIPTION
+8e0db9c0d69cf4c04c9ee1d5db3bbf89 *DESCRIPTION
 c8961435ec3f65c5c6ddfaf655ad837c *NAMESPACE
-eb32b08b25343fd9e2a01990ab88b04b *NEWS
+572dd346776f7f57b73cbde9cfe9024d *NEWS
 ad56930d6b150715fc634ff380060fc8 *R/APR.R
 d03cbbb4eb56775ce870717a6eba6e20 *R/PMT.R
 0f71882c51fb7096a1c4712a338cf3cd *R/PV.R
@@ -19,7 +19,7 @@ ad15b6e90c0f0ef3908448cd3343fd54 *R/multiplot.R
 bf1dc1b28fe040819379ef1951891b26 *R/prob.odd.R
 67b68e8fbb7eabbf5bb37e4ec7a9918a *R/sanitise.R
 2340f55dc620f62e2bd13ccb4af7b025 *R/scaledScore.R
-13cf0d64100c6b956523748ac18283c5 *R/theme_optimum.R
+3a98f88635744c463d97c210ee9e56bc *R/theme_optimum.R
 6a215ee6c2e73ce56e97c2512722b27d *R/thousands.R
 c8b5d1a7ca6da13d96899cd888cf6a8d *man/APR.Rd
 8f9201c30dc34fd4a1d4ba96b4c9c290 *man/PMT.Rd
@@ -43,8 +43,11 @@ d0ec0491498d781d98f2dee7029a53d5 *man/theme_optimum.Rd
 dc02ed3ee428e9066c839766709e4463 *man/thousands_format.Rd
 b67fdf4865d0386b3d808e7b90b8222c *tests/test-all.R
 a385b85fc6938390aa83fed934f83671 *tests/testthat/basic.Rnw
-70de7b122340d4e3ded120b2df13e6db *tests/testthat/datatabletest.Rnw
-4e658db44fbee404bbd3a8c5ff3ef974 *tests/testthat/datatabletest.pdf
+4e40f0a3df515333c371f936a32645c7 *tests/testthat/datatabletest.Rnw
+ce71f14d503b6877b9ddce88d1c97348 *tests/testthat/datatabletest.pdf
+bb4d0dd0b5f4a71b227ca7e415d746b9 *tests/testthat/figure/unnamed-chunk-1.pdf
+419027961880460a5c50d56ae3839035 *tests/testthat/figure/unnamed-chunk-2.pdf
+d1a52964c1805a3a0178161179769d48 *tests/testthat/tempunnamed-chunk-2.pdf
 ae579dcb59d438ebf7df27606992d8a5 *tests/testthat/test-APR.R
 0eeeccc6aa9eb5bfd3faa8d61157e013 *tests/testthat/test-PMT.R
 f0ad5a96e0d5af2e798c2de27645f0bd *tests/testthat/test-PV.R
@@ -62,3 +65,4 @@ ac3cf0d09693406100ecc223e71c5a8a *tests/testthat/test-prob.odd.R
 1685832e5bb8173fb269872ca37d483e *tests/testthat/test-sanitise.R
 954f66dd57f71c8d4f8bff4e203817ff *tests/testthat/test-scaledScore.R
 0b25c328c0affd45300f8ca42ad84a89 *tests/testthat/test-theme_optimum.R
+d7d9a48d009cc2b6cc3553a1e26ea32a *tests/testthat/unnamed-chunk-2.pdf

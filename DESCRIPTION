@@ -7,7 +7,7 @@ Description: This packages fills the gaps credit analysts and loan modellers at
     modelling loans (without rounding), and other helpful functions
     for producing charts and tables.  It also has some additional scales for
     use, including a GBP scale
-Version: 0.31
+Version: 0.32
 Authors@R: c(
     person("Stephanie", "Locke",
     email = "stephanie.locke@optimumcredit.co.uk", role = c("aut", "cre")))
@@ -16,9 +16,9 @@ Suggests: testthat, grid, ggplot2, ggthemes, knitr, AUC, scales,
         stringr, plyr
 License: GPL-3
 LazyData: true
-Packaged: 2014-03-24 13:45:58 UTC; slocke
+Packaged: 2014-04-04 12:05:37 UTC; slocke
 Author: Stephanie Locke [aut, cre]
 Maintainer: Stephanie Locke <stephanie.locke@optimumcredit.co.uk>
 NeedsCompilation: no
 Repository: CRAN
-Date/Publication: 2014-03-24 15:14:14
+Date/Publication: 2014-04-04 14:38:00
