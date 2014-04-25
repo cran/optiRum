@@ -15,7 +15,8 @@ preperation for PDF production
 sanitise("[&\%#<>\\\\")
 }
 \seealso{
-Other helper: \code{\link{generatePDF}}
+Other helper: \code{\link{CJ.dt}};
+\code{\link{convertToXML}}; \code{\link{generatePDF}}
 }
 \keyword{PDF}
 \keyword{Rnw}
