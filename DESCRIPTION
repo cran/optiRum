@@ -1,25 +1,27 @@
 Package: optiRum
-Title: Miscellaneous functions for finance / credit risk analysts
-Description: This packages fills the gaps credit analysts and loan modellers at
+Title: Miscellaneous functions for (primarily) finance / credit risk
+        analysts
+Description: This fills the gaps credit analysts and loan modellers at
     Optimum Credit identify in the existing R code body.
     It allows for the production of documentation with less coding,
     replicates a number of Microsoft Excel functions useful for
     modelling loans (without rounding), and other helpful functions
     for producing charts and tables.  It also has some additional scales for
-    use, including a GBP scale
-Version: 0.33
+    use, including a GBP scale.
+Version: 0.35
 Authors@R: c(
     person("Stephanie", "Locke",
     email = "stephanie.locke@optimumcredit.co.uk", role = c("aut", "cre")))
 Depends: R (>= 3.0.2)
-Imports: data.table
-Suggests: testthat, grid, ggplot2, ggthemes, knitr, AUC, scales,
-        stringr, plyr, XML
+Imports: data.table, ggplot2, AUC, grid, knitr, plyr, scales, stringr,
+        XML
+Suggests: testthat
 License: GPL-3
 LazyData: true
-Packaged: 2014-04-25 08:49:20 UTC; slocke
+BugReports: https://github.com/stephlocke/optiRum/issues
+Packaged: 2014-12-08 12:45:53 UTC; slocke
 Author: Stephanie Locke [aut, cre]
 Maintainer: Stephanie Locke <stephanie.locke@optimumcredit.co.uk>
 NeedsCompilation: no
 Repository: CRAN
-Date/Publication: 2014-04-25 11:02:57
+Date/Publication: 2014-12-08 22:26:12
