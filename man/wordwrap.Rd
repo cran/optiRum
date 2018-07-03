@@ -2,8 +2,7 @@
 % Please edit documentation in R/wordwrap.R
 \name{wordwrap}
 \alias{wordwrap}
-\title{Produce a string with one word per line
-Designed for splitting strings to fit better on axis on charts}
+\title{Produce a string with one word per line}
 \usage{
 wordwrap(x, ...)
 }
@@ -13,18 +12,19 @@ wordwrap(x, ...)
 \item{...}{Allows additional parameters to be passed to gsub}
 }
 \description{
-Produce a string with one word per line
 Designed for splitting strings to fit better on axis on charts
 }
 \examples{
 library('ggplot2')
-ggplot(data.frame(x=1:10,y=1:10),aes(x,y))+theme_optimum()+geom_line()
+names <- wordwrap(c("This is a name","Single"))
+ggplot(data.frame(x=names,y=1:10),aes(x,y))+theme_optimum()+geom_line()
 
 }
 \seealso{
 Other helper: \code{\link{CJ.dt}},
   \code{\link{convertToXML}}, \code{\link{generatePDF}},
-  \code{\link{sanitise}}
+  \code{\link{pounds_format}}, \code{\link{sanitise}},
+  \code{\link{thousands_format}}
 }
+\concept{helper}
 \keyword{ggplot}
-

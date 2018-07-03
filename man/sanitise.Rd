@@ -19,11 +19,12 @@ sanitise('[&\%#<>\\\\')
 \seealso{
 Other helper: \code{\link{CJ.dt}},
   \code{\link{convertToXML}}, \code{\link{generatePDF}},
-  \code{\link{wordwrap}}
+  \code{\link{pounds_format}},
+  \code{\link{thousands_format}}, \code{\link{wordwrap}}
 }
+\concept{helper}
 \keyword{PDF}
 \keyword{Rnw}
 \keyword{generate}
 \keyword{knitr}
 \keyword{pdflatex}
-

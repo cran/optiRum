@@ -7,22 +7,33 @@ Description: This fills the gaps credit analysts and loan modellers at
     modelling loans (without rounding), and other helpful functions
     for producing charts and tables.  It also has some additional scales for
     use, including a GBP scale.
-Version: 0.37.3
+Version: 0.40.1
+Encoding: UTF-8
 Authors@R: c(
-    person("Stephanie", "Locke",
-    email = "stephanie.g.locke@gmail.com", role = c("aut", "cre")))
+    person("Steph", "Locke",
+    email = "stephanie.g.locke@gmail.com", role = c("aut", "cre")),
+    person("Locke Data", comment = "https://itsalocke.com/",
+    role = c("fnd")),
+    person("Optimum Credit Ltd's analysts", 
+    comment = "https://www.optimumcredit.co.uk/", role = c("fnd")),
+    person("Maëlle", "Salmon", role = "ctb"))
 Depends: R (>= 3.0.2)
 Imports: data.table (>= 1.9.6), ggplot2, AUC, grid, knitr, plyr,
         scales, stringr, XML
-Suggests: testthat, covr
+Suggests: testthat, covr, rmarkdown
 License: GPL-3
 LazyData: true
-BugReports: https://github.com/stephlocke/optiRum/issues
+URL: https://github.com/lockedata/optiRum,
+        https://itsalocke.com/optirum/
+BugReports: https://github.com/lockedata/optiRum/issues
 VignetteBuilder: knitr
-RoxygenNote: 5.0.1
+RoxygenNote: 6.0.1.9000
 NeedsCompilation: no
-Packaged: 2015-12-31 12:31:12 UTC; slocke
-Author: Stephanie Locke [aut, cre]
-Maintainer: Stephanie Locke <stephanie.g.locke@gmail.com>
+Packaged: 2018-07-03 17:50:06 UTC; Maelle
+Author: Steph Locke [aut, cre],
+  Locke Data [fnd] (https://itsalocke.com/),
+  Optimum Credit Ltd's analysts [fnd] (https://www.optimumcredit.co.uk/),
+  Maëlle Salmon [ctb]
+Maintainer: Steph Locke <stephanie.g.locke@gmail.com>
 Repository: CRAN
-Date/Publication: 2015-12-31 15:12:22
+Date/Publication: 2018-07-03 19:30:06 UTC
