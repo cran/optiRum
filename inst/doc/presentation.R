@@ -1,4 +1,4 @@
-## ----fig.height=15, fig.width=5------------------------------------------
+## ----fig.height=15, fig.width=5-----------------------------------------------
 library(ggplot2)
 library(optiRum)
  
